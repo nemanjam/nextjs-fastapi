@@ -25,6 +25,7 @@ https://github.com/innovatorved/whisper.api
 https://github.com/AdrianPayne/fastapi-rocket-boilerplate
 // promenio github username, sad je:
 https://github.com/asacristani/fastapi-rocket-boilerplate
+pulumi kao python lib u __main__.py
 ------
 // generator, redis, rabbitmq, logging
 https://github.com/s3rius/FastAPI-template
@@ -34,4 +35,4 @@ https://github.com/s3rius/FastAPI-template
 https://github.com/igormagalhaesr/FastAPI-boilerplate
 // dobar zapravo, kubernetes
 https://github.com/Kludex/fastapi-microservices
-
+Tiltfile - maps Dockerfile to kubernetes
