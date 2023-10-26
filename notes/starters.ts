@@ -26,6 +26,7 @@ https://github.com/AdrianPayne/fastapi-rocket-boilerplate
 // promenio github username, sad je:
 https://github.com/asacristani/fastapi-rocket-boilerplate
 pulumi kao python lib u __main__.py
+crud je u app/core/models/base.py
 ------
 // generator, redis, rabbitmq, logging
 https://github.com/s3rius/FastAPI-template
@@ -33,6 +34,14 @@ https://github.com/s3rius/FastAPI-template
 // two similar with arq
 // another from linkedin
 https://github.com/igormagalhaesr/FastAPI-boilerplate
+// sve preuzeto iz tiangolo
+kopira samo app folder u Dockerfile, ne postavlja PYTHONPATH 
+COPY ./src/app /code/app
+----
+models - tip za bazu
+schemas - tipovi pydantic
+poziva samo sa gen tipovima, nema args
+CRUDUser = CRUDBase[User, UserInDB, UserUpdateDB]
 // dobar zapravo, kubernetes
 https://github.com/Kludex/fastapi-microservices
 Tiltfile - maps Dockerfile to kubernetes
