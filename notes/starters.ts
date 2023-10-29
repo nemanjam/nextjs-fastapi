@@ -9,7 +9,10 @@ https://github.com/testdrivenio/fastapi-sqlmodel-alembic
 -------
 // fastapi backend only
 //  excellent fastapi, rocketry as scheduler, rabbitmq
+zesce nekompletan, samo redis i db u docker, fastapi u venv, bezveze
+ima greske u readme, .env, d-c.dev.yml, nema app i docs url...
 https://github.com/kamranabdicse/fastapi-postgres-boilerplate
+----------
 // another, better, redis broker, terraform
 https://github.com/jonra1993/fastapi-alembic-sqlmodel-async
 // kazakhstan, maybe this, SAMO redis, nema rabbitmq i celery
@@ -29,6 +32,7 @@ pulumi kao python lib u __main__.py
 crud je u app/core/models/base.py
 ------
 // generator, redis, rabbitmq, logging
+// bezveze orms, cookiecutter mnogo, neupotrebljiv, jedino redovi
 https://github.com/s3rius/FastAPI-template
 -----
 // two similar with arq
